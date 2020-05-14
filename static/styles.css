@@ -1,0 +1,19 @@
+body {
+  background-color: blue;
+}
+
+#someid {
+  position: center;
+}
+
+.someclass {
+  position: relative;
+}
+
+#main_message {
+  font-size: 90px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}

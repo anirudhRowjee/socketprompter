@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='application/javascript' src="https://cdn.jsdelivr.net/npm/socket.io-client@2/dist/socket.io.js"></script>
+  <title>Prompter Manager</title>
+</head>
+<body>
+  <h1> PROMPTER MANAGER </h1>
+  <!-- form comes here -->
+  <form id="manager_form">
+    <input type="text" name="Prompt Text" id="promptmsg">
+    <select name="colorpicker" id="promptcolor">
+      <option value="red"> red </option>
+      <option value="blue"> blue </option>
+      <option value="green"> green </option>
+      <option value="orange"> orange </option>
+      <option value="yellow"> yellow </option>
+      <option value="white"> white </option>
+    </select>
+    <button id='sendprompt' type="submit">Send Prompt</button>
+  </form>
+  
+  <script src="/static/manager.js"></script>
+</body>
+</html>
